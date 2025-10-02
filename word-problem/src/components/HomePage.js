@@ -15,8 +15,7 @@ import { FaBookOpenReader } from "react-icons/fa6";
 import { GiTrophy } from "react-icons/gi";
 import { SlBadge } from "react-icons/sl";
 
-const API_URL = "http://localhost:5000/api";
-
+const API_URL = "/api"; // relative path
 const WordProblemsApp = () => {
   const [view, setView] = useState("home");
   const [problems, setProblems] = useState([]);
